@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: 10px solid #111111;
+    box-sizing: border-box;
+    /*font-family: Comic Sans;*/
+}
+
+@font-face {
+    font-family: "fonts2";
+    src: url(.../fonts/ "IcoMoon-Free.ttf") format("truetype");
+}
+
+.about, .resume, .portfolio, .blog, .contact {
+    padding: 5% 20%;
+}
+
+.home {
+    background: #525252;
+    padding: 150px 30%;
+}
+
+.home img {
+    width: 50%;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.page {
+    text-align: center;
+    z-index: 1;
+    color: #EEEEEE;
+    white-space: nowrap;
+    position: relative;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 3em;
+    color: #222222;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    text-align: right;
+    width: 45%;
+    float: left;
+    padding-right: 5%;
+}
+
+.content {
+
+}
+
+.sunday {
+    background-image: url(../images/2.jpg);
+    height: 100%;
+}
+
+.block1 {
+    background: #222222;
+    height: 100px;
+}
+
+.content p {
+    padding: 10px;
+    color: #888888;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.about .content {
+    -webkit-column-count: 2;
+}
+
+.wrapper span {
+    display: inline;
+
+}
+
+.skills {
+    width: 100px;
+    height: 20px;
+    background: black;
+}
+
+.icon-calendar:before {
+    content: "\e909";
+    font-size: 3em;
+    padding: 5%;
+
+}
+
+.icon-magnet:before {
+    content: "\e90b";
+    font-size: 3em;
+    padding: 5%;
+}
+
+.icon-alarm:before {
+    content: "\e908";
+    font-size: 3em;
+    padding: 5%;
+}
+
+.icon-camera:before {
+    content: "\e907";
+    font-size: 3em;
+    padding: 5%;
+}
+
+.icon-paint-format:before {
+    content: "\e906";
+    font-size: 3em;
+    padding: 5%;
+}
+
+.icon-glass:before {
+    content: "\e90a";
+    font-size: 3em;
+    padding: 5%;
+}
+
+.resume {
+    background: #EEEEEE;
+}
+
+.portfolio {
+    background: #222222;
+}
+
+.f {
+    color: #EEEEEE;
+}
+
+.blog {
+    background: #EEEEEE;
+    overflow: hidden;
+}
+
+menu li {
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    background: #0A0A0A;
+    color: #999999;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: block;
+    text-align: right;
+    letter-spacing: 2px;
+    padding-right: 30px;
+}
+
+.menu li:active {
+    width: 250px;
+    height: 500px;
+}
+
+menu li:hover {
+    color: #7A7A7A;
+}
+
+menu li:nth-child(1) {
+    font-size: 2em;
+    color: #DDDDDD;
+    text-decoration: none;
+    position: relative;
+    text-align: left;
+    text-indent: 20px;
+}
+
+menu {
+    position: fixed;
+    z-index: 3;
+    top: 50px;
+    left: 50px;
+    width: 250px;
+    height: 60px;
+    overflow: hidden;
+    font-family: arial;
+}
+
+.icon-newspaper:before {
+    content: "\e901";
+    color: black;
+    font-size: 2.5em;
+    display: block;
+}
+
+.about a, .resume a, .blog a {
+    text-decoration: none;
+    display: block;
+    font-variant: small-caps;
+    color: #222222;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.portfolio a, .contact a {
+    text-decoration: none;
+    display: block;
+    font-variant: small-caps;
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.icon-images:before {
+    content: "\e902";
+    color: #EEEEEE;
+    font-size: 2.5em;
+    display: block;
+}
+
+.icon-profile:before {
+    content: "\e903";
+    color: black;
+    font-size: 2.5em;
+    display: block;
+}
+
+.icon-paste:before {
+    content: "\e904";
+    color: black;
+    font-size: 2.5em;
+    display: block;
+}
+
+.icon-mail:before {
+    content: "\e905";
+    color: #EEEEEE;
+    font-size: 2.5em;
+    display: block;
+}
+
+.icon-file-text2:before {
+    content: "\e902";
+    color: black;
+    font-size: 2.5em;
+    display: block;
+}
+
+.contact {
+    background: #111111;
+}
+
+.wrapper2 {
+
+}
+
+.icon-behance2:before {
+    content: "\e910";
+    color: #EEEEEE;
+}
+
+.icon-facebook2:before {
+    content: "\e90c";
+    color: #EEEEEE;
+}
+
+.icon-instagram:before {
+    content: "\e90d";
+    color: #EEEEEE;
+}
+
+.icon-vk:before {
+    content: "\e90e";
+    color: #EEEEEE;
+}
+
+.icon-dribbble:before {
+    content: "\e90f";
+    color: #EEEEEE;
+}
+
+.icon-menu:before {
+    content: "\e900";
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 0.7em;
+}
+
+menu a:active {
+    color: #FFFFFF;
+    text-decoration: line-through;
+}
+
+input {
+    background: #222222;
+    border: none;
+    width: 100%;
+    height: 35px;
+    color: #EEEEEE;
+    font-size: 1.1em;
+    font-family: arial;
+
+}
+
+textarea {
+    width: 500px;
+    height: 60px;
+    background: #222222;
+    color: #EEEEEE;
+}
+
+@media screen and (max-width: 1500px) {
+    .about, .resume, .portfolio, .blog, .contact {
+        padding: 5%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    h2 {
+        text-align: left;
+        width: 100%;
+    }
+
+    .content {
+        text-align: left;
+        width: 100%;
+    }
+}
+
